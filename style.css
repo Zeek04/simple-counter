@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+#score{
+    font-size: 100px;
+    padding: 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+#minus{
+    font-size: 40px;
+    padding: 0 25px;
+    background-color: red;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+
+}
+
+#plus{
+    font-size: 40px;
+    padding: 0 20px;
+    background-color: green;
+    border-style: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+#plus:hover{
+    color: #000;
+    background-color: greenyellow;
+}
+
+#minus:hover{
+    color: #000;
+    background-color: crimson;
+}
