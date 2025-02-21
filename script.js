@@ -10,8 +10,10 @@ plus.addEventListener('click', () => {
 })
 
 minus.addEventListener('click', () => {
-    score--
-    counter.textContent = score
+    if(score >= 1){
+        score--
+        counter.textContent = score
+    }
 })
 
 
